@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav
+      class="container mx-auto p-4 sm:grid sm:grid-cols-[1.5fr_3fr_1.5fr] md:grid-cols-[1.5fr_3fr_1.5fr] lg:grid-cols-[1fr_3fr_1fr] sm:grid-rows-1 sm:gap-x-4 sm:items-center"
+    >
+      <div>
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+
+      <ul
+        class="hidden sm:flex gap-6 justify-start font-bold text-gray-400 [&>li]:cursor-pointer [&>li]:hover:text-cyan-400 [&>li]:transition [&>li]:duration-500"
+      >
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+
+      <div class="hidden sm:flex justify-end items-center sm:gap-2 md:gap-4">
+        <a
+          href="#"
+          class="font-bold text-gray-400 hover:bg-cyan-400 hover:text-cyan-800 hover:px-6 hover:py-2 hover:rounded-full duration-500"
+          >Login</a
+        >
+        <a
+          href="#"
+          class="bg-cyan-400 text-white font-bold md:px-6 sm:px-4 sm:py-2 sm:rounded-full md:py-2 hover:bg-cyan-800 duration-500"
+          >Sign Up</a
+        >
+      </div>
+    </nav>
+
+    <!-- Section 1 -->
+    <section
+      class="container px-4 mx-auto my-6 flex flex-col-reverse justify-center items-center gap-y-18 lg:flex-row lg:gap-y-0"
+    >
+      <div class="flex flex-col space-y-4">
+        <h1
+          class="text-5xl font-bold text-center py-6 lg:text-left lg:text-6xl xl:text-7xl"
+        >
+          More than just shorter links
+        </h1>
+        <p
+          class="text-center text-2xl text-gray-400 px-6 lg:text-left lg:px-0 lg:max-w-3/4"
+        >
+          Build your brand's recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <a
+          href="#"
+          class="mx-auto bg-cyan-400 text-white text-3xl font-bold px-8 py-4 rounded-full lg:text-left lg:mx-0 lg:max-w-max hover:bg-cyan-700 duration-300 hover:ease-in"
+          >Get Started</a
+        >
+      </div>
+      <div class="">
+        <img
+          src="images/illustration-working.svg"
+          alt="working"
+          class="max-w-full"
+        />
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="bg-gray-200 mx-auto px-6 mt-48 pb-16">
+      <!-- Cards -->
+      <div
+        class="mx-auto container md:max-w-4xl flex flex-col gap-6 items-center"
+      >
+        <!-- Card 1 -->
+        <div
+          class="flex flex-col w-full items-center bg-[#393152] p-8 -mt-16 gap-y-2 rounded-xl md:flex-row md:gap-y-0 md:gap-x-2 md:justify-between"
+        >
+          <input
+            type="text"
+            placeholder="Shorten a ink here"
+            class="w-full text-yellow-500 font-medium p-4 rounded-xl bg-white md:w-[80%] focus:outline-none active:outline-none"
+          />
+          <a
+            href="#"
+            class="w-full bg-cyan-400 text-white text-md text-center font-bold px-6 py-4 rounded-xl md:w-[20%] hover:bg-cyan-700 duration-300 hover:ease-in"
+            >Shorten It!</a
+          >
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="bg-white w-full rounded-lg px-4 py-6 flex flex-col items-center md:flex-row md:justify-between"
+        >
+          <div class="">
+            <p class="font-bold text-lg">https://frontendmentor.io</p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 md:flex-row md:gap-x-4"
+          >
+            <p class="font-bold text-cyan-600 text-lg">
+              https://rel.ink/k4IKyk
+            </p>
+            <a
+              href="#"
+              class="bg-cyan-400 text-white text-md text-center font-bold px-8 py-2 rounded-xl hover:bg-cyan-700 duration-300 hover:ease-in"
+              >Copy</a
+            >
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="bg-white w-full rounded-lg px-4 py-6 flex flex-col items-center md:flex-row md:justify-between"
+        >
+          <div class="">
+            <p class="font-bold text-lg">https://frontendmentor.io</p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 md:flex-row md:gap-x-4"
+          >
+            <p class="font-bold text-cyan-600 text-lg">
+              https://rel.ink/k4IKyk
+            </p>
+            <a
+              href="#"
+              class="bg-[#393152] text-white text-md text-center font-bold px-8 py-2 rounded-xl hover:bg-cyan-400 duration-300 hover:ease-in"
+              >Copy</a
+            >
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div
+          class="bg-white w-full rounded-lg px-4 py-6 flex flex-col items-center md:flex-row md:justify-between"
+        >
+          <div class="">
+            <p class="font-bold text-lg">https://frontendmentor.io</p>
+          </div>
+          <div
+            class="flex flex-col items-center gap-y-2 md:flex-row md:gap-x-4"
+          >
+            <p class="font-bold text-cyan-600 text-lg">
+              https://rel.ink/k4IKyk
+            </p>
+            <a
+              href="#"
+              class="bg-cyan-400 text-white text-md text-center font-bold px-8 py-2 rounded-xl hover:bg-cyan-700 duration-300 hover:ease-in"
+              >Copy</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="w-full h-auto bg-gray-200 py-20 px-6 mx-auto">
+      <!-- Container -->
+      <div class="container mx-auto flex flex-col items-center gap-y-20">
+        <!-- Introduction -->
+        <div class="flex flex-col gap-y-4 items-center">
+          <h2 class="text-4xl font-bold text-center">Advanced Statistics</h2>
+          <p class="text-center text-gray-400 max-w-[70%]">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <!-- Cards -->
+        <div
+          class="w-full flex flex-col justify-center items-center gap-y-24 relative md:flex-row md:gap-y-0 md:gap-x-8"
+        >
+          <!-- Connector Line -->
+          <div
+            class="absolute bg-cyan-400 left-1/2 top-0 transform -translate-x-1/2 w-[5px] h-full md:top-[33%] md:left-0 md:w-full md:h-[5px] md:-translate-x-0 md:-translate-y-[33%]"
+          ></div>
+
+          <!-- Card 1 -->
+          <div
+            class="w-full bg-white flex flex-col items-center gap-y-6 p-6 rounded-xl relative z-10"
+          >
+            <div class="bg-[#222126] p-4 rounded-full -mt-16 z-10">
+              <img
+                src="images/icon-brand-recognition.svg"
+                alt=""
+                class="w-10"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-center">Brand Recognition</h3>
+            <p class="text-gray-400 text-center">
+              BBoost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="w-full bg-white flex flex-col items-center gap-y-6 p-6 mt-8 rounded-xl relative z-10"
+          >
+            <div class="bg-[#222126] p-4 rounded-full -mt-16 z-10">
+              <img src="images/icon-detailed-records.svg" alt="" class="w-10" />
+            </div>
+            <h3 class="text-2xl font-bold text-center">Detailed Records</h3>
+            <p class="text-gray-400 text-center">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="w-full bg-white flex flex-col items-center gap-y-6 p-6 mt-16 rounded-xl relative z-10"
+          >
+            <div class="bg-[#222126] p-4 rounded-full -mt-16 z-10">
+              <img
+                src="images/icon-fully-customizable.svg"
+                alt=""
+                class="w-10"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-center">Fully Customizeable</h3>
+            <p class="text-gray-400 text-center w-full">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="section4" class="mx-auto px-6 h-auto py-20">
+      <div class="container mx-auto flex flex-col items-center gap-y-6">
+        <h4
+          class="text-4xl text-center text-white [text-shadow:_2px_2px_8px_rgba(0,0,0,0.8)] font-extrabold"
+        >
+          Boost your links today
+        </h4>
+        <a
+          href="#"
+          class="bg-cyan-400 text-white text-md text-center font-bold px-8 py-4 rounded-full hover:bg-cyan-800 duration-300 hover:ease-in"
+          >Get Started</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mx-auto px-6 h-auto py-20 bg-[#222126]">
+      <div
+        class="mx-auto container flex flex-col items-center gap-y-14 md:flex-row md:gap-y-0 md:gap-x-4 md:justify-between md:items-start"
+      >
+        <!-- Logo -->
+        <div class="flex-1">
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <!-- Footer Navigation -->
+        <div
+          class="flex-2 flex flex-col gap-y-12 md:flex-row md:gap-y-0 md:justify-between md:items-start"
+        >
+          <!-- Features -->
+          <div class="flex flex-col gap-y-4">
+            <h5 class="text-center font-bold text-white md:text-left">
+              Features
+            </h5>
+            <ul
+              class="flex flex-col items-center text-gray-400 gap-y-2 md:items-start [&>li]:cursor-pointer [&>li]:hover:text-cyan-400 [&>li]:transition [&>li]:duration-500"
+            >
+              <li><a href="#">Link Shortening</a></li>
+              <li><a href="#">Branded Links</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+          </div>
+          <!-- Resources -->
+          <div class="flex flex-col gap-y-4">
+            <h5 class="text-center font-bold text-white md:text-left">
+              Resources
+            </h5>
+            <ul
+              class="flex flex-col items-center text-gray-400 gap-y-2 md:items-start [&>li]:cursor-pointer [&>li]:hover:text-cyan-400 [&>li]:transition [&>li]:duration-500"
+            >
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <!-- Company -->
+          <div class="flex flex-col gap-y-4">
+            <h5 class="text-center font-bold text-white md:text-left">
+              Company
+            </h5>
+            <ul
+              class="flex flex-col items-center text-gray-400 gap-y-2 md:items-start [&>li]:cursor-pointer [&>li]:hover:text-cyan-400 [&>li]:transition [&>li]:duration-500"
+            >
+              <li><a href="#">About</a></li>
+              <li><a href="#">Our Teams</a></li>
+              <li><a href="#">Carriers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Social -->
+        <div
+          class="flex flex-1 flex-row gap-x-6 justify-center items-center [&>img]:rounded-full [&>img]:cursor-pointer [&>img]:hover:bg-cyan-400 [&>img]:hover:rounded-full [&>img]:transition [&>img]:duration-500"
+        >
+          <img
+            src="images/icon-facebook.svg"
+            alt=""
+            class="w-7 p-[3px] bg-[#222126]"
+          />
+          <img
+            src="images/icon-twitter.svg"
+            alt=""
+            class="w-7 p-[3px] bg-[#222126]"
+          />
+          <img
+            src="images/icon-pinterest.svg"
+            alt=""
+            class="w-7 p-[3px] bg-[#222126]"
+          />
+          <img
+            src="images/icon-instagram.svg"
+            alt=""
+            class="w-7 p-[3px] bg-[#222126]"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
